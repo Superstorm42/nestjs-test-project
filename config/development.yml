@@ -1,0 +1,11 @@
+db: 
+  type: 'postgres'
+  port: 5432
+  database: 'taskmanagement'
+  host: 'localhost'
+  username: 'postgres'
+  password: '1'
+  synchronize: true
+
+jwt: 
+  secret: 'topsecret51'
